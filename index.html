@@ -91,10 +91,10 @@
               </label>
               <textarea class="textarea" rows="5"  placeholder="Введите текст" ></textarea>
             </div>
-            <label class="check-block-text" >
-              <input type="checkbox"  name="topic" value="agree" id="agree"  class="checkbox" >
-              <span class="check"></span>
-              Соглашаюсь с рассылкой и принимаю <a class="link-form" href="">Условия договора</a></label> 
+            <div class="check-block">
+              <input type="checkbox" name="topic" value="agree" id="agree" >
+              <p class="check-block__text">Соглашаюсь с рассылкой и принимаю <a class="link-form" href="">Условия договора</a></p>
+            </div>
             <button class="form-button" type="submit">Отправить</button>
           </form>
           <button data-modal-close class="close-menu">
@@ -198,10 +198,11 @@
         <h2 class="section-team__tittle"> Наша команда</h2>
         <ul class="team-list">
           <li class="team-list__item">
-            <img src="./images/h1.jpg" alt="Фото парня в очках" width="270" />
+            <img src="./images/h1.jpg" alt="Фото парня в очках" width="270" class="team-list__img"/>
             <div class="teams-container">
             <h3 class="team-name">Игорь Демьяненко</h3>
             <p class="team-specialization">Product Designer</p>
+            </div>
             <ul class="team-media__list">
               <li class="team-media__list--item">
                 <a class="team-media__link" href="">
@@ -231,17 +232,18 @@
                 </svg>
               </a></li>
             </ul>
-            </div>
           </li>
           <li class="team-list__item">
             <img
               src="./images/h2.jpg"
               alt="Фото девушки с белыми волосами в очках"
               width="270"
+              class="team-list__img"
             />
             <div class="teams-container">
             <h3 class="team-name">Ольга Репина</h3>
             <p class="team-specialization">Frontend Developer</p>  
+            </div>
             <ul class="team-media__list">
               <li class="team-media__list--item">
                 <a class="team-media__link" href="">
@@ -271,17 +273,18 @@
                 </svg>
               </a></li>
             </ul>
-            </div>
           </li>
           <li class="team-list__item">
             <img
               src="./images/h3.jpg"
               alt="Фото парня в рубашке  "
               width="270"
+              class="team-list__img"
             />
             <div class="teams-container">
             <h3 class="team-name">Николай Тарасов</h3>
             <p class="team-specialization">Marketing</p>  
+            </div>
             <ul class="team-media__list">
               <li class="team-media__list--item">
                 <a class="team-media__link" href="">
@@ -311,17 +314,18 @@
                 </svg>
               </a></li>
             </ul>
-            </div>
           </li>
           <li class="team-list__item ">
             <img
               src="./images/h4.jpg"
               alt="Фото парня в чёрной футболке"
               width="270"
+              class="team-list__img"
             />
             <div class="teams-container">
             <h3 class="team-name">Михаил Ермаков</h3>
             <p class="team-specialization">UI Designer</p>  
+            </div>
             <ul class="team-media__list">
               <li class="team-media__list--item">
                 <a class="team-media__link" href="">
@@ -351,7 +355,6 @@
                 </svg>
               </a></li>
             </ul>
-            </div>
           </li>
         </ul>
       </div>
@@ -442,34 +445,39 @@
       </div>
       <div class="footer-center">
           <h4 class="welcom">Присоеденяйтесь</h4>
-          <ul class="team-media__list">
-            <li class="team-media__list--item">
-              <a class="team-media__link" href="">
-                <svg class="team-media__icon footer-icon" >
+          <ul class="footer-media__list">
+            <li class="footer-media__list--item">
+              <a class="footer-media__link" href="">
+                <svg class="footer-media__icon" >
                   <use href="./images/icons.svg#icon-instagram">
                   </use>
                 </svg>
               </a>
             </li>
-            <li class="team-media__list--item"> <a class="team-media__link" href="">
-              <svg class="team-media__icon footer-icon">
-                <use href="./images/icons.svg#icon-twitter">
-                </use>
-              </svg>
-            </a></li>
-            <li class="team-media__list--item">
-              <a class="team-media__link" href="">
-              <svg class="team-media__icon footer-icon">
-                <use href="./images/icons.svg#icon-facebook">
-                </use>
-              </svg>
-            </a></li>
-            <li class="team-media__list--item"> <a class="team-media__link" href="">
-              <svg class="team-media__icon footer-icon">
-                <use href="./images/icons.svg#icon-linkedin">
-                </use>
-              </svg>
-            </a></li>
+            <li class="footer-media__list--item">
+              <a class="footer-media__link" href="">
+                <svg class="footer-media__icon" >
+                  <use href="./images/icons.svg#icon-twitter">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-media__list--item">
+              <a class="footer-media__link" href="">
+                <svg class="footer-media__icon" >
+                  <use href="./images/icons.svg#icon-facebook">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-media__list--item">
+              <a class="footer-media__link" href="">
+                <svg class="footer-media__icon" >
+                  <use href="./images/icons.svg#icon-linkedin">
+                  </use>
+                </svg>
+              </a>
+            </li>
           </ul>
       </div>
       <div class="footer-div-right">
@@ -488,5 +496,5 @@
     </div> 
   </footer>
   <script src="./js/modal.js"></script>
-  </body> 
+  </body>
 </html>
