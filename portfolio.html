@@ -13,7 +13,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="stylesheet" href="./css/main.min.css">
     <title>Document</title>
   </head>
   <body>
@@ -51,152 +52,142 @@
         <div class="container">
           <h2 class="button-tittle">Меню кнопок</h2>
           <ul class="button-list"> 
-            <li class="button-item"><button type="button" class="button">Все</button></li>
-            <li class="button-item"><button type="button" class="button">Веб-сайты</button></li>
-            <li class="button-item"><button type="button" class="button">Приложения</button></li>
-            <li class="button-item"><button type="button" class="button">Дизайн</button></li>
-            <li class="button-item"><button type="button" class="button">Маркетинг</button></li>
+            <li class="button-list__item"><button type="button" class="button">Все</button></li>
+            <li class="button-list__item"><button type="button" class="button">Веб-сайты</button></li>
+            <li class="button-list__item"><button type="button" class="button">Приложения</button></li>
+            <li class="button-list__item"><button type="button" class="button">Дизайн</button></li>
+            <li class="button-list__item"><button type="button" class="button">Маркетинг</button></li>
           </ul>
-          <ul class="portfolio-fotos">
-            <li class="images-portfolio">
+          <ul class="portfolio-fotos__list">
+            <li class="portfolio-fotos__list--item">
               <div class="portfolio-thumb portfolio-thumb-one">
                 <img
                 src="./images/imgprt.jpg"
                 alt="Интернет страница"
-                width="370"
-                height="294"
+                class="portfolio-thumb__img"
               />
               </div>
               
-              <div class="container-content">
-              <h3 class="img-tittle">Технокряк</h3>
-              <p class="img-descr">Веб-сайт</p>
+              <div class="container-content container-content__first">
+              <h3 class="portfolio-fotos__subtittle">Технокряк</h3>
+              <p class="portfolio-fotos__description">Веб-сайт</p>
               </div> 
             </li>
-            <li class="images-portfolio">
+            <li class="portfolio-fotos__list--item">
               <div class="portfolio-thumb portfolio-thumb-two">
                 <img
                   src="./images/imgprt2.jpg"
                   alt="Игра в баскетбол"
-                  width="370"
-                  height="294"
+                  class="portfolio-thumb__img"
                 />
               </div>
               
               <div class="container-content">
-              <h3 class="img-tittle">Постер New Orlean vs Golden Star</h3>
-              <p class="img-descr">Дизайн</p>  
+              <h3 class="portfolio-fotos__subtittle">Постер New Orlean vs Golden Star</h3>
+              <p class="portfolio-fotos__description">Дизайн</p>  
               </div>
               
             </li>
-            <li class="images-portfolio">
+            <li class="portfolio-fotos__list--item">
               <div class="portfolio-thumb portfolio-thumb-three">
                 <img
                 src="./images/imgprt3.jpg"
                 alt="Логотип"
-                width="370"
-                height="294"
+                class="portfolio-thumb__img"
               />
               </div>
               
               <div class="container-content">
-              <h3 class="img-tittle">Ресторан Seafood</h3>
-              <p class="img-descr">Приложение</p>  
+              <h3 class="portfolio-fotos__subtittle">Ресторан Seafood</h3>
+              <p class="portfolio-fotos__description">Приложение</p>  
               </div>
               
-            </li class="images-portfolio">
-            <li class="images-portfolio">
+            </li >
+            <li class="portfolio-fotos__list--item">
               <div class="portfolio-thumb portfolio-thumb-four">
                 <img
                 src="./images/imgprt4.jpg"
                 alt="Наушники"
-                width="370"
-                height="294"
+                class="portfolio-thumb__img"
               />
               </div>
               
               <div class="container-content">
-              <h3 class="img-tittle">Проект Prime</h3>
-              <p class="img-descr">Маркетинг</p>  
+              <h3 class="portfolio-fotos__subtittle">Проект Prime</h3>
+              <p class="portfolio-fotos__description">Маркетинг</p>  
               </div>
-            </li class="images-portfolio">
-            <li class="images-portfolio">
+            </li >
+            <li class="portfolio-fotos__list--item">
               <div class="portfolio-thumb portfolio-thumb-five">
                 <img
                 src="./images/imgprt5.jpg"
                 alt="Коробки"
-                width="370"
-                height="294"
+                class="portfolio-thumb__img"
               />
               </div>
               
               <div class="container-content">
-              <h3 class="img-tittle">Проект Boxes</h3>
-              <p class="img-descr">Приложение</p> 
+              <h3 class="portfolio-fotos__subtittle">Проект Boxes</h3>
+              <p class="portfolio-fotos__description">Приложение</p> 
               </div>
               
-            </li class="images-portfolio">
-            <li class="images-portfolio">
+            </li >
+            <li class="portfolio-fotos__list--item">
               <div class="portfolio-thumb portfolio-thumb-six">
                 <img
                 src="./images/imgprt6.jpg"
                 alt="Монитор"
-                width="370"
-                height="294"
+                class="portfolio-thumb__img"
               />
               </div>
               <div class="container-content">
-              <h3 class="img-tittle">Inspiration has no Borders</h3>
-              <p class="img-descr">Веб-сайт</p>  
+              <h3 class="portfolio-fotos__subtittle">Inspiration has no Borders</h3>
+              <p class="portfolio-fotos__description">Веб-сайт</p>  
               </div>
               
             </li>
-            <li class="images-portfolio">
+            <li class="portfolio-fotos__list--item">
               <div class="portfolio-thumb portfolio-thumb-seven">
                 <img
                 src="./images/imgprt7.jpg"
                 alt="Книга"
-                width="370"
-                height="294"
+                class="portfolio-thumb__img"
               />
               </div>
               
               <div class="container-content">
-              <h3 class="img-tittle">Издание Limited Edition</h3>
-              <p class="img-descr">Дизайн</p>  
+              <h3 class="portfolio-fotos__subtittle">Издание Limited Edition</h3>
+              <p class="portfolio-fotos__description">Дизайн</p>  
               </div>
               
             </li>
-            <li class="images-portfolio">
+            <li class="portfolio-fotos__list--item">
               <div class="portfolio-thumb portfolio-thumb-eight">
                 <img
                 src="./images/imgprt8.jpg"
                 alt="Бирка"
-                width="370"
-                height="294"
+                class="portfolio-thumb__img"
               />
               </div>
               
               <div class="container-content">
-              <h3 class="img-tittle">Проект LAB</h3>
-              <p class="img-descr">Маркетинг</p>  
+              <h3 class="portfolio-fotos__subtittle">Проект LAB</h3>
+              <p class="portfolio-fotos__description">Маркетинг</p>  
               </div>
               
             </li>
-            <li class="images-portfolio">
+            <li class="portfolio-fotos__list--item">
               <div class="portfolio-thumb portfolio-thumb-nine">
                 <img
                 src="./images/imgprt9.jpg"
                 alt="Ноутбук"
-                width="370"
-                height="294"
-                class="anim-foto"
+                class="portfolio-thumb__img"
               />
               </div>
               
               <div class="container-content">
-              <h3 class="img-tittle">Growing Business</h3>
-              <p class="img-descr">Приложение</p>  
+              <h3 class="portfolio-fotos__subtittle">Growing Business</h3>
+              <p class="portfolio-fotos__description">Приложение</p>  
               </div>
             </li>
           </ul>
@@ -207,7 +198,7 @@
         <div class="container">
           <div class="footer-div-second">
         <div class="footer-left">
-          <a href="" class="nav-logo">Web<span class="nav-logo2">Studio</span></a>
+          <a href="" class="footer-logo">Web<span class="footer-logo2">Studio</span></a>
         <address class="address">
           <ul class="addres-list">
             <li class="addres-list__item">
@@ -235,28 +226,28 @@
             <h4 class="welcom">Присоеденяйтесь</h4>
             <ul class="team-media__list">
               <li class="team-media__list--item">
-                <a class="team-media__link">
-                  <svg class="team-media__icon">
+                <a class="team-media__link" href="">
+                  <svg class="team-media__icon footer-icon">
                     <use href="./images/icons.svg#icon-instagram">
                     </use>
                   </svg>
                 </a>
               </li>
-              <li class="team-media__list--item"> <a class="team-media__link">
-                <svg class="team-media__icon">
+              <li class="team-media__list--item"> <a class="team-media__link" href="">
+                <svg class="team-media__icon footer-icon">
                   <use href="./images/icons.svg#icon-twitter">
                   </use>
                 </svg>
               </a></li>
               <li class="team-media__list--item">
-                <a class="team-media__link">
-                <svg class="team-media__icon">
+                <a class="team-media__link" href="">
+                <svg class="team-media__icon footer-icon">
                   <use href="./images/icons.svg#icon-facebook">
                   </use>
                 </svg>
               </a></li>
-              <li class="team-media__list--item"> <a class="team-media__link">
-                <svg class="team-media__icon">
+              <li class="team-media__list--item"> <a class="team-media__link" href="">
+                <svg class="team-media__icon footer-icon">
                   <use href="./images/icons.svg#icon-linkedin">
                   </use>
                 </svg>
@@ -268,7 +259,7 @@
           <form class="footer-distrbution">
             <input type="email" name="Email" placeholder="Email" class="footer-distrbution__input"> 
             <button class="footer-distrbution__button">Подписаться
-              <svg class="footer-distrbution__button--svg">
+              <svg class="footer-distrbution__button--svg " >
                 <use href="./images/icons.svg#icon-telegram">
                 </use>
               </svg>
