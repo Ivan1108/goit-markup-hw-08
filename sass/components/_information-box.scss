@@ -1,0 +1,41 @@
+.information-list{
+    display: flex;
+    padding-left: 0px;
+    }
+.information-list__item:not(:last-child){
+    margin-right: 30px;
+    }
+.information-meta{
+    background-color:$--background-button-color;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.information-subtitles {
+    color: $--main-color-text;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.information-description{
+    color: $--description-text-color;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.section-tittle {
+    visibility: hidden;
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }

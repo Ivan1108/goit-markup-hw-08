@@ -1,0 +1,54 @@
+.section-specialization{
+    padding-top: 0px;
+    padding-bottom: 94px;
+}
+.section-specialization__tittle {
+    color: $--main-color-text;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.specialization-list{
+    display: flex;
+
+}
+.specalization-list__item:not(:last-child){
+    margin-right: 30px;
+  }
+.specalization-thumb::before{
+    display: flex;
+    content: "";
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    bottom: 0px;
+    background: rgba(47, 48, 58, 0.8);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $--primary-text-color;
+    z-index: 1;
+}
+.thumb-one::before{
+    content: "Десктопные приложения";
+}
+.thumb-two::before{
+    content: "Мобильные приложения";
+}
+.thumb-three::before{
+    content: "Дизайнерские решения";
+}
+.specalization-thumb{
+    position: relative;
+}
