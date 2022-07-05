@@ -6,6 +6,7 @@
   right: 0;
   background-color: rgba(15, 12, 12, 0.5);
   z-index: 2;
+  overflow-y: scroll;
 }
 .backdrop.is-hidden{
   opacity: 0;
