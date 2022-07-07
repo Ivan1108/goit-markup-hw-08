@@ -19,7 +19,34 @@
     }
   }
   .contacts-list__menu{
-    
+    display: block;
+  }
+  .contacts-list__link--menu{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: left;
+    color: #757575;
+
+  }
+  .contacts-list__item--menu{
+    margin-left: 40px;
+    margin-top: 32px;
+  }
+  .phone{
+    color: #2196F3;
+  }
+  .contacts-list__item--menu:first-child{
+    color: #2196F3;
+  }
+  .contacts-list__item--menu:not(:last-child){
+    margin-top: 302px;
+
+  }
+  .contacts-list__item--menu:last-child{
+    margin-bottom: 64px;
   }
   .contacts-list .contacts-list__item +.contacts-list__item{
     margin-left: 50px;
@@ -72,4 +99,31 @@
   }
   .contacts-list__item:hover{
     fill: $--accent-color-text;
+  }
+  .nav-social{
+    display: flex;
+  }
+  .nav-social__item{
+    margin-right:10px ;
+    padding-right: 10px;
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+  }
+  .nav-social__item:last-child{
+    border: none;
+    padding: 0px;
+    margin-right: 0px;
+  }
+  .nav-social__item:first-child{
+    margin-left: 40px;
+  }
+
+  .nav-social__item--link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+   
   }
