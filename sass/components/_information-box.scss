@@ -10,10 +10,12 @@
         display: flex;
         flex-basis: 50%;
         flex-wrap: wrap;
+        margin-bottom: -30px;
     }
     @media screen and(min-width:1200px) {
         width: 1200px;
         display: flex;
+        margin-bottom: 0px;
     }
     }
 .information-list__item{
@@ -68,6 +70,9 @@
     text-transform: uppercase;
     margin-top: 0px;
     margin-bottom: 10px;
+    @media screen and (max-width:767px) {
+        text-align: center;
+    }
 }
 .information-description{
     color: $--description-text-color;
@@ -87,15 +92,21 @@
     padding-top: 94px;
     padding-bottom: 94px;
     @media screen and(max-width:767px) {
-        width: 450px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding-top: 60px;
+       padding-bottom: 60px;
     }
     @media screen and(min-width:768px) {
-        width: 768px;
-
+        padding-top: 60px;
+        padding-bottom: 60px;   
         display: flex;
     }
     @media screen and(min-width:1200px) {
         width: auto;
         margin: auto;
+        padding-top: 94px;
+        padding-bottom: 94px;
     }
       }

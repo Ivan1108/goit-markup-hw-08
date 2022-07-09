@@ -10,12 +10,14 @@
     background-size: cover;
 
     @media screen and(max-width:767px)  {
-        width: 480px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
         margin-left: 0;
         margin-right: 0;
     }
     @media screen and(min-width:768px) {
-        width: 768px;
+     
         margin-left: 0;
         margin-right: 0;
     }
@@ -34,7 +36,44 @@
         text-transform: uppercase;
         margin-top: 0px;
         margin-bottom: 30px;
+        display: flex;
         text-align: center;
+        justify-content: center;
+        @media screen and(max-width:767px) {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 42px;
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        @media screen and(min-width:768px) {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 42px;
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        @media screen and(min-width:1200px) {
+            color: $--primary-text-color;
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 60px;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            margin-top: 0px;
+            margin-bottom: 30px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
         }
         .section-slogan__button{
         color: $--primary-text-color;
